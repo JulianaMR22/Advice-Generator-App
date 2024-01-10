@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  box-sizing: border-box;
+}
+
+body.container__principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(218, 23%, 16%);
+  height: 100vh;
+}
+.container__principal .principal__advice {
+  background-color: hsl(217, 19%, 24%);
+  width: 34%;
+  height: 265px;
+  border-radius: 15px;
+  -webkit-box-shadow: -3px 0px 80px -32px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 0px 80px -32px rgba(0, 0, 0, 0.75);
+  box-shadow: -3px 0px 80px -32px rgba(0, 0, 0, 0.75);
+}
+
+.container__principal .principal__advice .advise__number {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 800;
+  color: hsl(150, 100%, 66%);
+}
+
+.container__principal .principal__advice .number__textadvice {
+  margin-left: 34px;
+  margin-right: 34px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.container__principal .principal__advice .textadvice__line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+}
+
+.container__principal .principal__advice .line__intermediate {
+  border-bottom: 1px solid hsl(222, 10%, 66%);
+  width: 37%;
+}
+
+.container__principal .principal__advice .line__floating {
+  border: 3px solid white;
+  border-radius: 4px;
+  height: 16px;
+  margin-left: 2%;
+}
+
+.container__principal .principal__advice .line__floating.line__right {
+  margin-right: 2%;
+  margin-left: 1.5%;
+}
+
+div.button__container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-top: 7%;
+}
+
+.button__container .container__advise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(150, 100%, 66%);
+  border-radius: 30px;
+  width: 12%;
+  border: 0px;
+  height: 55px;
+}
+
+.button__container .container__advise:hover {
+  box-shadow: 0px 0px 25px #32ff7e, 1px 1px 2px hsl(150, 100%, 66%);
+}
+
+.button__container .container__advise .advise__image {
+  width: 47%;
+}
