@@ -20,8 +20,10 @@
   </head>
   <body class="container__principal">
     <div class="principal__advice">
-      <h1 class="advise__number">advise # 117</h1>
-      <p class="number__textadvice">
+      <h1 class="advise__number">
+        advise # <span id="adviceNumber">117</span>
+      </h1>
+      <p class="number__textadvice" id="textAdvice">
         "It is easy to sit up and take notice, what's difficult is getting up
         and taking action."
       </p>
@@ -32,10 +34,11 @@
         <div class="line__intermediate"></div>
       </div>
       <div class="button__container">
-        <button class="container__advise">
+        <button class="container__advise" id="buttonAdvice">
           <img src="./images/icon-dice.svg" alt="" class="advise__image" />
         </button>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
