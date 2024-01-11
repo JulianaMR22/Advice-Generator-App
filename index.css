@@ -89,3 +89,19 @@ div.button__container {
 .button__container .container__advise .advise__image {
   width: 47%;
 }
+
+@media screen and (max-width: 640px) {
+  .container__principal .principal__advice {
+    width: 95%;
+    height: 285px;
+  }
+
+  .button__container .container__advise {
+    width: 15%;
+    height: 52px;
+  }
+
+  .button__container .container__advise:focus {
+    box-shadow: 0px 0px 25px #32ff7e, 1px 1px 2px hsl(150, 100%, 66%);
+  }
+}
